@@ -1,0 +1,89 @@
+# ===== Build / Gradle =====
+*.iml
+.gradle/
+build/
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+output-metadata.json
+
+# ===== Android Studio / IDE =====
+# Se ignora .idea completo: contiene rutas locales y puede guardar
+# datos de conexiones (DB, servidores) y configuraciones personales.
+.idea/
+*.ipr
+*.iws
+.vscode/
+.fleet/
+
+# ===== Archivos locales (rutas del SDK, etc.) =====
+local.properties
+
+# ===== Secretos y credenciales =====
+# Firebase / Google
+google-services.json
+GoogleService-Info.plist
+service-account*.json
+*-service-account*.json
+firebase-adminsdk*.json
+client_secret*.json
+
+# Keystores y certificados de firma
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+keystore.properties
+signing.properties
+key.properties
+release-signing.*
+
+# Variables de entorno y configuración con secretos
+.env
+.env.*
+!.env.example
+secrets.properties
+secrets.*.properties
+*.secret
+*.secrets
+credentials.json
+credentials.*.json
+apikeys.properties
+api_keys.properties
+
+# Propiedades de Gradle con credenciales a nivel de proyecto
+# (las globales van en ~/.gradle/gradle.properties)
+gradle-local.properties
+
+# ===== Datos y logs =====
+*.log
+*.hprof
+*.sqlite
+*.sqlite3
+*.db
+heapdump*
+
+# ===== Reportes / salidas de tests y análisis =====
+/reports/
+lint-results*.html
+lint-results*.xml
+lint-report*
+
+# ===== Sistema operativo =====
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ===== Gradle wrapper: NO ignorar el jar =====
+!gradle/wrapper/gradle-wrapper.jar
