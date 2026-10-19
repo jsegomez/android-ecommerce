@@ -1,4 +1,4 @@
-package com.jsegomez.ecommerce.features.auth.presentation.login
+package com.jsegomez.ecommerce.features.auth.presentation.register
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
